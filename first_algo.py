@@ -32,7 +32,7 @@ df["target"] = df["target"].astype(int, errors="ignore")
 
 # Assuming 'df' is your DataFrame and 'selected_columns' contains the features
 X = df[selected_columns]
-y = df['target']
+y = df['won'] # df['target']
 
 # Create an instance of TimeSeriesSplit with the desired number of splits
 n_splits = 5  # Adjust the number of splits as needed
