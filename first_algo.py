@@ -8,7 +8,6 @@ import random
 warnings.filterwarnings("ignore")
 random.seed(10)
 
-
 df = pd.read_csv("nba_games.csv", index_col=0)
 df = df.sort_values("date")
 df = df.reset_index(drop=True)

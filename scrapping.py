@@ -12,7 +12,7 @@ STANDINGS_DIR = os.path.join(DATA_DIR, "standings")
 SCORES_DIR = os.path.join(DATA_DIR, "scores")
 standings_files = os.listdir(STANDINGS_DIR)
 sys.stdout.reconfigure(encoding='utf-8')
-SEASONS = list(range(2016,2023))
+SEASONS = list(range(2016, 2024))
 
 
 async def get_html(url, selector, sleep=5, retries=3):
